@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:visibility="visible" android:orientation="horizontal" android:id="@+id/RelativeLayout01" android:background="@drawable/general_topbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/customdialog_default_icon" android:scaleType="fitXY" android:layout_marginLeft="5dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ImageView01" android:layout_centerVertical="true">
+            <TextView android:id="@+id/TextView01" android:textSize="20dp" android:textColor="@color/black" android:text="@string/alertdialog_title_adddev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+       	</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/RelativeLayout01"
+        android:background="@drawable/device_middle_bg" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="@drawable/general_row_bg" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                style="@style/DeviceTextView"
+                android:layout_width="100.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/device_ID" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout031"
+                android:layout_width="60.0dip"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8.0dip"
+                android:layout_toRightOf="@id/TextView02" >
+
+                <EditText
+                    android:id="@+id/deviceid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="0" >
+                    <requestFocus android:layout_width="wrap_content" />
+
+                </EditText>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView03"
+                style="@style/DeviceTextView"
+                android:layout_width="60.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8.0dip"
+                android:layout_toRightOf="@id/RelativeLayout031"
+                android:gravity="center_vertical"
+                android:text="@string/device_name" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout032"
+                android:layout_width="130dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/TextView03" >
+
+                <EditText
+                    android:id="@+id/devicename"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="MES700A1" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/RelativeLayout03"
+            android:layout_height="40.0dip"
+            android:background="@drawable/general_row_bg" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                style="@style/DeviceTextView"
+                android:layout_width="100.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/device_brand" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout06"
+                android:layout_width="60.0dip"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8.0dip"
+                android:layout_toRightOf="@+id/TextView04" >
+
+                <EditText
+                    android:id="@+id/devicebrand"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="MES" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView07"
+                style="@style/DeviceTextView"
+                android:layout_width="60.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8.0dip"
+                android:layout_toRightOf="@+id/RelativeLayout06"
+                android:gravity="center_vertical"
+                android:text="@string/device_style" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout04"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/TextView07" >
+
+                <EditText
+                    android:id="@+id/devicestyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"
+                    android:text="EnergyMeter" />
+
+                <ImageButton
+                    android:id="@+id/devicestylebutton"
+                    android:layout_width="30dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/land_more" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout05"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:visibility="gone"
+            android:layout_below="@id/RelativeLayout04"
+            android:background="@drawable/general_row_bg" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                style="@style/DeviceTextView"
+                android:layout_width="100.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/device_state" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                style="@style/DeviceTextView"
+                android:layout_width="60.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6.0dip"
+                android:layout_toRightOf="@id/TextView05"
+                android:gravity="center_vertical"
+                android:text="@string/device_state_off" />
+
+            <ImageView
+                android:id="@+id/ImageView09"
+                android:layout_width="60.0dip"
+                android:layout_height="28.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/device_control_off" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/RelativeLayout03" android:background="@drawable/general_bottombar_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/yesImageView"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_yes_bottombar" />
+
+        <ImageView 
+            android:id="@+id/backImageView" 
+            android:layout_width="50dp" 
+            android:layout_height="fill_parent" 
+            android:layout_marginRight="8.0dip" 
+            android:src="@drawable/main_back_bottombar" 
+            android:scaleType="fitXY" 
+            android:layout_alignParentRight="true" 
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:visibility="visible" android:orientation="horizontal" android:id="@+id/homemodeRelativeLayout01" android:background="@drawable/general_topbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/homemodeImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/customdialog_default_icon" android:scaleType="fitXY" android:layout_marginLeft="5dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/homemodeLinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/homemodeImageView01" android:layout_centerVertical="true">
+            <TextView android:id="@+id/homemodeTextView01" android:textSize="20dp" android:textColor="@color/black" android:text="@string/home_mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+       	</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/homemodeRelativeLayout02"
+        android:layout_below="@id/homemodeRelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/device_middle_bg" >
+
+        <TableLayout
+            android:id="@+id/homemodetablayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/homemodebtn_devicecontrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/item_homemode01" />
+
+            <Button
+                android:id="@+id/homemodebtn_homevideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/item_homemode02" />
+
+            <Button
+                android:id="@+id/homemodebtn_homeEntertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/item_homemode03" />
+
+            <Button
+                android:id="@+id/homemodebtn_homemode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/item_homemode04" />
+
+            <Button
+                android:id="@+id/homemodebtn_homesetup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/item_homemode05" />
+        </TableRow>
+    </TableLayout>
+<TableLayout
+        android:id="@+id/homemodetablayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homemodetablayout01"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/homemodetv_homecontrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/item_homemode01"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/homemodetv_homevideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="32dp"
+                android:text="@string/item_homemode02"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/homemodetv_homeentertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="@string/item_homemode03"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/homemodetv_scenecontrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="@string/item_homemode05"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/homemodetv_homemanage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="@string/item_homemode05"
+                android:textColor="#ffffffff" />
+        </TableRow>
+    </TableLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/homemodeRelativeLayout03" android:background="@drawable/general_bottombar_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+
+        <ImageView android:id="@+id/homemodebackImageView" android:layout_width="50dp" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:src="@drawable/main_back_bottombar" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

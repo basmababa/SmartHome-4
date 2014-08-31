@@ -1,0 +1,43 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="DeviceTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+     <style name="GeneralButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/general_button</item>
+    </style>
+     <style name="GeneralListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/line</item>
+    </style>
+    <style name="GeneralSeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_style</item>
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+    </style>
+     <style name="GeneralTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/general_text_tinge</item>
+    </style>
+    <style name="ThemeDialog1" parent="@android:style/Theme.Dialog">
+        <item name="android:buttonStyle">@style/GeneralButton</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/GeneralListView</item>
+        <item name="android:seekBarStyle">@style/GeneralSeekBar</item>
+        <item name="android:textViewStyle">@style/GeneralTextView</item>
+    </style>
+</resources>

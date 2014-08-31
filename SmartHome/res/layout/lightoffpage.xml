@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1">"
+    <RelativeLayout android:id="@+id/RelativeLayout01" android:background="@drawable/general_topbar_bg" 
+        android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/ImageView_off"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_close_bottombar" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="13.0dip"
+            android:textColor="@color/black"
+            android:text="@string/cooker_title_1"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    <ImageView android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bulb_off" 
+        android:layout_gravity="center_horizontal" />
+    <ToggleButton android:id="@+id/toggleButton2"
+        android:layout_width="140dip"
+        android:layout_height="46dip"
+        android:background="#999933"
+        android:textOn="开灯"
+        android:textOff="关灯"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

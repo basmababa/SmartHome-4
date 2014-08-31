@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smarthome"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.example.smarthome.SmartHomebaseApp"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.example.smarthome.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smarthome.SystemSetupActivity.SystemSetupActivity"
+            android:label="@string/title_activity_system_setup"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.SystemSetupActivity.SystemSetupSubActivity.SystemAboutSubActivity"
+            android:label="@string/title_activity_system_about_sub"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.SystemSetupActivity.SystemSetupSubActivity.SystemInternetSubActivity"
+            android:label="@string/title_activity_system_internet_sub"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.VideoSetupActivity.VideoSetupSubActivity.TestActivity"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.VideoSetupActivity.VideoSetupActivity"
+            android:label="@string/title_activity_video_setup"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.VideoSetupActivity.VideoSetupSubActivity.VideoPinDaoYiSubActivity"
+            android:label="@string/title_activity_system_about_sub"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.VideoSetupActivity.Test1Activity"
+            android:label="@string/title_activity_test1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.HomeSetupActivity.HomeControlActivity"
+            android:label="@string/title_activity_home_control"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.HomeSetupActivity.DeviceActivity"
+            android:label="@string/title_activity_device"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.HomeSetupActivity.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.HomeSetupActivity.AddDeviceActivity"
+            android:label="@string/title_activity_add_device"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.HomeModeActivity.HomeModeActivity"
+            android:label="@string/title_activity_home_mode"
+        	android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.smarthome.HomeSetupActivity.DeviceDetailActivity"
+        	android:screenOrientation="landscape" >
+        </activity>
+        
+         <activity
+            android:name="com.example.smarthome.HomeSetupActivity.lighton"
+        	android:screenOrientation="landscape" >
+        </activity>
+
+         <activity
+            android:name="com.example.smarthome.HomeSetupActivity.lightoff"
+        	android:screenOrientation="landscape" >
+        </activity>
+         
+        <activity
+            android:name="com.example.smarthome.HomeSetupActivity.cookerControlActivity"
+        	android:screenOrientation="landscape" >
+        </activity>
+        
+        <!--  -->
+        
+               
+      
+
+      
+      
+      
+        
+    </application>
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+</manifest>

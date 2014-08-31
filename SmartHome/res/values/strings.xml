@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartHomeIndex1</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="dialog_ok">确定</string>
+    <string name="item_homecontrol">家居控制</string>
+    <string name="item_videocontrol">退出系统</string>
+    <string name="item_homeentertainment">娱乐功能</string>
+    <string name="item_scenecontrol">模式控制</string>
+    <string name="item_homevideo">家居视频</string>
+    <string name="item_homemanage">系统设置</string>
+    <string name="networksetting">网络设置</string>
+    <string name="item_homemode01">回家模式</string>
+    <string name="item_homemode02">夜间模式</string>
+    <string name="item_homemode03">白天模式</string>
+    <string name="item_homemode04">离家模式</string>
+    <string name="item_homemode05">自动模式</string>
+    <string name="about">关于</string>
+    <string name="test1">扩展选项</string>
+    <string name="hostNetwork">本机网络</string>
+    <string name="serverIp">服务器IP</string>
+    <string name="home_ipaddress">IP地址：</string>
+    <string name="systemsetup">系统设置</string>
+    <string name="viedosetup">摄像头频道</string>
+    <string name="viedobtn1">频道一</string>
+    <string name="viedobtn2">频道二</string>
+    <string name="viedobtn3">频道三</string>
+    <string name="viedobtn4">频道四</string>
+    <string name="viedobtn5">频道五</string>
+    <string name="version_information">"
+版本信息：V1.0.0-SmartHome-Build201312122157
+
+"</string>
+    <string name="aboutother">"
+
+*****************************************
+"</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="stop">停止</string>
+    <string name="exit_app">退出程序</string>
+    <string name="exit_question">您确定要吗？</string>
+    <string name="home_local_ip">本地IP ：</string>
+    <string name="type_alldevice">全部设备</string>
+    <string name="title_activity_system_about_sub">SystemAboutSubActivity</string>
+    <string name="title_activity_system_internet_sub">SystemInternetSubActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_video_setup">VideoSetupActivity</string>
+    <string name="title_activity_video_pin_dao_yi_sub">VideoPinDaoYiSubActivity</string>
+    <string name="title_activity_test1">Test1Activity</string>
+    <string name="title_activity_home_control">HomeControlActivity</string>
+    <string name="IP_address">服务器地址：</string>
+    <string name="Port">服务器端口：</string>
+    <string name="dev_delete_title">删除设备</string>
+    <string name="alertdialog_title_adddev">增加新设备</string>
+    <string name="home_mode_title">家居模式</string>
+    <string name="alertdialog_title_disdev">设备信息</string>
+    <string name="alertdialog_msg_exit">OK to exit?</string>
+    <string name="dev_delete__msg">是否确认删除？</string>
+    <string name="alertdialog_positivebutton">确认</string>
+    <string name="alertdialog_negativebutton">取消</string>
+    <string name="alertdialog_neutralbutton">Ignore</string>
+    <string name="alertdialog_error_adddev_noempty">添加设备不能为空!</string>
+    <string name="menu_allon">All on</string>
+    <string name="menu_alloff">All off</string>
+    <string name="menu_exit">Exit</string>
+    <string name="dev_name_all">所有设备</string>
+    <string name="dev_name_air">空调设备</string>
+    <string name="dev_name_gated">门控设备</string>
+    <string name="dev_name_fan">风扇设备</string>
+    <string name="dev_name_thermostat">温控设备</string>
+    <string name="dev_name_light">灯光设备</string>
+    <string name="dev_name_socket">插座设备</string>
+    <string name="dev_name_other">其他设备</string>
+    <string name="dev_name_company">公司设备</string>
+    <string name="dev_name_zigbee">Zigbee设备</string>
+    
+    <string name="dev_state_on">打开状态</string>
+    <string name="dev_state_off">关闭状态</string>
+    <string name="dev_state_refresh">更新设备状态...</string>
+    <string name="connection_server">连接服务器...</string>
+    <string name="connection_failure">连接失败...</string>
+    <string name="set_socket_connection">是否重新设置IP</string>
+    <string name="set_socket_title">Socket连接出错</string>
+    <string name="dev_state_open">打开设备中 ...</string>
+    <string name="dev_state_allopen">全部打开中 ...</string>
+    <string name="dev_state_close">关闭设备中 ...</string>
+    <string name="dev_state_allclose">全部关闭中 ...</string>
+    <string name="dev_state_failure">"操作失败，请连接网络！"</string>
+    <string name="set_network_tile">"网络出错"</string>
+    <string name="set_network">"是否去设置网络？"</string>
+    <string name="adddev_label_name">设备名称</string>
+    <string name="adddev_label_style">设备类型</string>
+    <string name="adddev_label_id">设备ID</string>
+    <string name="device_name">设备名称:</string>
+    <string name="device_brand">设备品牌:</string>
+    <string name="device_ID">设备ID号:</string>
+    <string name="device_style">设备类型:</string>
+    <string name="device_state">设备状态:</string>
+    <string name="device_value">设备温度</string>
+    <string name="device_pic">远程监控</string>
+    <string name="device_state_on">打开</string>
+    <string name="device_state_off">关闭</string>
+    <string name="device_camera_msg">扩展功能</string>
+    <string name="help_title_1">介绍</string>
+    <string name="cooker_title_1">电饭煲控制</string>
+    <string name="light_title_1">电灯控制</string>
+    <string name="help_text_1">"可添加设备的智能家居控制系统."</string>
+    <string name="help_title_3">操作介绍</string>
+    <string name="help_text_30">Single click the appliance item in device list to control the switch.</string>
+    <string name="help_text_31">查看设备的详细信息.</string>
+    <string name="help_text_32">操作帮助按钮.</string>
+    <string name="help_text_33">添加的被控制的设备.</string>
+    <string name="help_text_34">全部打开，全部关闭或者退出.</string>
+    <string name="help_text_35">更多操作，比如添加设备.</string>
+    <string name="help_title_4">联系方式</string>
+    <string name="help_text_4">"
+Email: 
+125864109@qq.com
+
+Tel: 
++8615989140344"</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="title_activity_wifi_list">WifiListActivity</string>
+    <string name="title_activity_system_setup">SystemSetupActivity</string>
+    <string name="text01">设备类型</string>
+    <string name="title_activity_add_device">AddDeviceActivity</string>
+    <string name="title_activity_home_mode">HomeMode</string>
+    <string name="delete_item">删除</string>
+	
+    <string name="show">15</string>
+    <string name="baimi">白米饭</string>
+    <string name="nuomi">糯米饭</string>
+    <string name="baotang">"煲汤"</string>
+    <string name="kuaizhu">"快    煮"</string>
+    <string name="baozaifan">煲仔饭</string>
+    <string name="baozhou">"煲    粥"</string>
+    <string name="plus">"   ++   "</string>
+    <string name="discrese">"   - -   "</string>
+    <string name="mode">模式</string>
+    <string name="cancel_baowen">取消/保温</string>
+    <string name="confirm">确认</string>
+    
+    
+    
+</resources>

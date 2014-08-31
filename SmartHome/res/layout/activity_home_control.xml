@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/bj"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="0dp" android:layout_height="fill_parent" android:layout_weight="9">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/item01" >
+
+	    <TextView
+	        android:id="@+id/textview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:textColor="@color/black"
+	        android:text="@string/text01" />
+
+    	</RelativeLayout>
+		<RelativeLayout  android:layout_below="@id/RelativeLayout04" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    <ListView
+	        android:id="@+id/Listview02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/home_control_listview_bg"
+	        android:cacheColorHint="#00000000"
+	        android:divider="@drawable/line"
+	        android:drawSelectorOnTop="false"
+	        android:listSelector="@drawable/listview_select" />
+	    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout android:layout_width="0dp" android:layout_height="fill_parent" android:layout_weight="22">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/general_topbar_bg" >
+
+            <TextView android:textColor="@color/black" android:gravity="center_vertical" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="设备号" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/black" 
+                android:id="@+id/TextView03" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" android:text="[0/0]" 
+                android:layout_toRightOf="@id/TextView02" 
+                android:visibility="gone"
+                android:layout_centerVertical="true" />
+
+            
+            
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="55dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_refresh_bottombar" />
+            
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="35dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitXY"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView01_home"
+                android:layout_width="45dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_close_bottombar" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/ListView01"
+            android:background="@drawable/device_middle_bg"
+            android:cacheColorHint="#00000000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+        <ListView
+            android:id="@+id/ListView002"
+            android:background="@drawable/device_middle_bg"
+            android:cacheColorHint="#00000000"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            />
+        
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout03"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/general_bottombar_bg"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_add_bottombar" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_menu_bottombar" />
+
+        <ImageView
+            android:id="@+id/ImageView003"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_help_bottombar" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

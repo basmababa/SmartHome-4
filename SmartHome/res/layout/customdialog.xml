@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:id="@+id/LinearLayout01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/general_topbar_bg" >
+
+        <ImageView 
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/ImageView01" 
+            android:layout_width="25.0dp" 
+            android:layout_height="25.0dp" 
+            android:src="@drawable/customdialog_default_icon" />
+        <TextView 
+            android:textSize="20.0dp" 
+            android:textColor="@color/black" 
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/TextView01" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/device_middle_bg"
+        android:orientation="vertical"
+        android:paddingBottom="1.0dp"
+        android:paddingLeft="3.0dp"
+        android:paddingRight="3.0dp"
+        android:paddingTop="1.0dp" >
+
+        <LinearLayout android:id="@+id/LinearLayout04" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:minWidth="240.0dp" 
+            android:minHeight="100.0dp">
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20.0dp" />
+
+        </LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/Button01" 
+                android:visibility="gone" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:textSize="20.0dp"
+                android:layout_weight="1.0" />
+            <Button android:id="@+id/Button02" 
+                android:visibility="gone" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:textSize="20.0dp"
+                android:layout_weight="1.0" />
+            <Button android:id="@+id/Button03" 
+                android:visibility="gone" 
+                android:layout_width="wrap_content" 
+                android:textSize="20.0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
